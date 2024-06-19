@@ -47,3 +47,4 @@ Cuando ya se tiene la certeza de que los cambios serán desplegados a un ambient
 >npm run build
 
 
+En el caso de querer desplegar el proyecto y para poder mantener un orden respecto a la ubicación de los archivos ubicados en los assets del proyecto, se debe definir un archivo de configuración de vite ``vite.config.js``. Este archivo permite indicar el nombre de la ruta de subdirectorios que tendrá el proyecto en su totalidad, lo cual Vite usará al usar el comando ``npm run build`` para determinar como desplegar las referencias de los archivos en el HTML.
