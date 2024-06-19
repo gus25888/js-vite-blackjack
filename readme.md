@@ -1,4 +1,31 @@
-# Vite
+# Blackjack Vite
+
+Pasos para ejecutar proyecto:
+
+1. Clonar repositorio 
+
+> git clone https://github.com/gus25888/js-vite-blackjack
+
+2. Ejecutar 
+
+> npm install
+
+3. Ejecutar la aplicación usando 
+
+> npm run dev
+
+4. Abrir el proyecto en el navegador en la dirección: ``localhost:port``
+
+## Despliegue en producción
+
+1. Ejecutar el comando:
+
+    > npm run build
+
+2. Copiar la carpeta ``dist`` que se genera en el webserver correspondiente por ej. Netlify (https://app.netlify.com/login/email)
+
+
+# Librería Vite
 
 Es una librería que permite generar builds de proyectos a nivel de frontend, generando la minificación de los archivos JS, CSS y HTML y generando las copias correspondientes en un directorio llamado dist.
 
